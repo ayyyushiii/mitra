@@ -1,17 +1,20 @@
 {
-  "greeting": "Good Morning",
-  "total_savings": "Total Savings",
-  "pay_today": "Pay Today",
-  "new_circle": "New Circle",
-  "withdraw": "Withdraw",
-  "active_circles": "Active Circles",
-  "vote_room": "Vote Room",
+  "welcome": "Welcome",
+  "home": "Home",
+  "circles": "Circles",
   "wallet": "Wallet",
+  "vote": "Vote",
   "profile": "Profile",
   "savings_planner": "Savings Planner",
-  "allocate_savings": "Allocate your savings into categories",
+  "allocate_savings": "Allocate your savings",
+  "total_savings": "Total Savings",
   "remaining": "Remaining",
   "save": "Save",
-  "language": "Language",
-  "categories": { "marriage": "Marriage", "loans": "Loans", "land": "Land", "education": "Education", "gold": "Gold" }
+  "categories": {
+    "marriage": "Marriage",
+    "loans": "Loans",
+    "land": "Land",
+    "education": "Education",
+    "gold": "Gold"
+  }
 }

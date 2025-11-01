@@ -1,22 +1,24 @@
 import * as Localization from "expo-localization";
-import I18n from "i18n-js";  
+import I18n from "i18n-js";
 
 import en from "./en.json";
 import hi from "./hi.json";
 import kn from "./kn.json";
 
-// ✅ configure translations
+// ✅ load language files into I18n
 I18n.translations = { en, hi, kn };
+
+// ✅ set defaults
 I18n.defaultLocale = "en";
-I18n.locale = (Localization.locale?.split("-")[0] ?? "en");
+I18n.locale = Localization.locale.split("-")[0] || "en";
 I18n.fallbacks = true;
 
-// ✅ export i18n instance
-export const i18n = I18n;
+// ✅ helper to translate keys
+export const t = (key: string, options?: any) => I18n.t(key, options);
 
-// ✅ change language helper
-export const setLocale = (lng: "en" | "hi" | "kn") => {
-  i18n.locale = lng;
+// ✅ change language function
+export const setLocale = (lang: "en" | "hi" | "kn") => {
+  I18n.locale = lang;
 };
 
-export default i18n;
+export default I18n;

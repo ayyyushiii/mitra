@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, TouchableOpacity, FlatList } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { i18n } from "../i18n";
+import { t, setLocale } from "../i18n";
 import { COLORS } from "../constants/theme";
 
 const active = [

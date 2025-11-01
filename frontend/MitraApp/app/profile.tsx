@@ -1,5 +1,5 @@
 import { View, Text, ScrollView, TouchableOpacity } from "react-native";
-import { i18n } from "../i18n";
+import { t, setLocale } from "../i18n";
 
 import SavingsPlanner from "../components/SavingsPlanner";
 

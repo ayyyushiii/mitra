@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { View, Text, TextInput, TouchableOpacity, FlatList } from "react-native";
-import { i18n } from "../i18n";                    
+import { t, setLocale } from "../i18n";
 import ProgressBar from "./ProgressBar";
 import { fetchSavingsSplit, saveSavingsSplit } from "../services/chits";
 

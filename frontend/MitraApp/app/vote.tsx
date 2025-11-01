@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { View, Text, FlatList, TouchableOpacity } from "react-native";
-import i18n from "../i18n";
+import { t, setLocale } from "../i18n";
 import { castVote } from "../services/chits";
 
 const MEMBERS = [
