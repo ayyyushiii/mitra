@@ -1,0 +1,17 @@
+{
+  "greeting": "Good Morning",
+  "total_savings": "Total Savings",
+  "pay_today": "Pay Today",
+  "new_circle": "New Circle",
+  "withdraw": "Withdraw",
+  "active_circles": "Active Circles",
+  "vote_room": "Vote Room",
+  "wallet": "Wallet",
+  "profile": "Profile",
+  "savings_planner": "Savings Planner",
+  "allocate_savings": "Allocate your savings into categories",
+  "remaining": "Remaining",
+  "save": "Save",
+  "language": "Language",
+  "categories": { "marriage": "Marriage", "loans": "Loans", "land": "Land", "education": "Education", "gold": "Gold" }
+}

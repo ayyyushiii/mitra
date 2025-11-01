@@ -1,0 +1,17 @@
+{
+  "greeting": "शुभ प्रभात",
+  "total_savings": "कुल बचत",
+  "pay_today": "आज भुगतान करें",
+  "new_circle": "नया चक्र",
+  "withdraw": "निकासी",
+  "active_circles": "सक्रिय चक्र",
+  "vote_room": "वोट कक्ष",
+  "wallet": "वॉलेट",
+  "profile": "प्रोफ़ाइल",
+  "savings_planner": "सेविंग्स प्लानर",
+  "allocate_savings": "अपनी बचत को श्रेणियों में बाँटें",
+  "remaining": "शेष",
+  "save": "सेव",
+  "language": "भाषा",
+  "categories": { "marriage": "शादी", "loans": "ऋण", "land": "ज़मीन", "education": "शिक्षा", "gold": "सोना" }
+}

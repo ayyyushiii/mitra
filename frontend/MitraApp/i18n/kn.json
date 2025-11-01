@@ -1,0 +1,17 @@
+{
+  "greeting": "ಶುಭೋದಯ",
+  "total_savings": "ಒಟ್ಟು ಉಳಿತಾಯ",
+  "pay_today": "ಇಂದು ಪಾವತಿಸಿ",
+  "new_circle": "ಹೊಸ ವಲಯ",
+  "withdraw": "ಹೊರತೆಗೆ",
+  "active_circles": "ಸಕ್ರಿಯ ವಲಯಗಳು",
+  "vote_room": "ಮತದಾನ ಕೊಠಡಿ",
+  "wallet": "ವಾಲೆಟ್",
+  "profile": "ಪ್ರೊಫೈಲ್",
+  "savings_planner": "ಉಳಿತಾಯ ಯೋಜಕ",
+  "allocate_savings": "ನಿಮ್ಮ ಉಳಿತಾಯವನ್ನು ವಿಭಾಗಿಸಿ",
+  "remaining": "ಉಳಿದ",
+  "save": "ಸೇವ್",
+  "language": "ಭಾಷೆ",
+  "categories": { "marriage": "ಮದುವೆ", "loans": "ಸಾಲ", "land": "ಜಮೀನು", "education": "ಶಿಕ್ಷಣ", "gold": "ಚಿನ್ನ" }
+}
