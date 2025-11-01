@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, TouchableOpacity, FlatList } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
-import { t, setLocale } from "../i18n";
+import { t, setLocale } from "../i18n/translate";
 import { COLORS } from "../constants/theme";
 
 const active = [
@@ -12,24 +12,24 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <LinearGradient colors={["#1E3A8A", "#2563EB"]} style={styles.hero}>
-        <Text style={styles.subtle}>{i18n.t("greeting")} (Good Morning)</Text>
+        <Text style={styles.subtle}>{t("greeting")} (Good Morning)</Text>
         <Text style={styles.name}>राजेश कुमार</Text>
 
         <View style={styles.savingsCard}>
-          <Text style={styles.savingsTitle}>{i18n.t("total_savings")}</Text>
+          <Text style={styles.savingsTitle}>{t("total_savings")}</Text>
           <Text style={styles.amount}>₹4,850</Text>
           <View style={styles.streak}><Text style={{ color: "white" }}>🔥 15 Day Streak</Text></View>
         </View>
 
         <View style={styles.actions}>
-          <Action title={i18n.t("pay_today")} />
-          <Action title={i18n.t("new_circle")} />
-          <Action title={i18n.t("withdraw")} />
+          <Action title={t("pay_today")} />
+          <Action title={t("new_circle")} />
+          <Action title={t("withdraw")} />
         </View>
       </LinearGradient>
 
       <View style={{ padding: 16 }}>
-        <Text style={{ fontSize: 18, fontWeight: "700", marginBottom: 10 }}>{i18n.t("active_circles")}</Text>
+        <Text style={{ fontSize: 18, fontWeight: "700", marginBottom: 10 }}>{t("active_circles")}</Text>
         <FlatList
           data={active}
           keyExtractor={(i) => i.id}

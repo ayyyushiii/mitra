@@ -1,8 +1,7 @@
 import { Tabs } from "expo-router";
-import { t, setLocale } from "../i18n";
 import { Ionicons } from "@expo/vector-icons";
 import { StatusBar } from "expo-status-bar";
-
+import React from "react";
 
 export default function RootLayout() {
   return (
